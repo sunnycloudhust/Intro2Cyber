@@ -1,0 +1,12 @@
+Key: 3821778e931d1cd4b43f12707fdcf3a25a153abe32fb6275520aa0aa5d0635e1
+Prefix: ab699de38d2045f405fd08ff054a83bd
+book.pdf size: 9110736
+book.enc size: 9110752
+First 16 plaintext bytes: 255044462d312e350a25d0d4c5d80a38
+First 16 ciphertext bytes: 2bd02af8e6454fdcff729b30fdf54e09
+book.pdf SHA-256: 67bc4507f7558c99f0ecc331651da224f0a73b2453fdd8ff5e67c8d4e56cc7dd
+book.dec.pdf SHA-256: 67bc4507f7558c99f0ecc331651da224f0a73b2453fdd8ff5e67c8d4e56cc7dd
+Hashes match: True
+Encryption time: 0.105713 seconds
+Normal counters leak chunk XOR: False
+Forgotten counter leaks chunk XOR: True

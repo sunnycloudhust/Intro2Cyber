@@ -1,0 +1,12 @@
+c1 xor c2 (hex): 070d0b44450c09080000061c41184817451300070653114f53000917541745001a00070c010706454928521b0b0e14002a5641
+matches m1 xor m2: True
+
+crib dragging " the " over c1 xor c2:
+  pos   4: 'exam '
+  pos   8: ' tnya'
+  pos  12: 'al re'
+  pos  24: 'start'
+
+forged key k' (hex): 391bdea1f1e02afc9ae0472097f4e3283004c17bfb6b7e895f9c2fbb392a1433cc7d38d0bb49881ef974adf4391c69f67bcbc12bfa
+c1 decrypted under k': Nothing to see here.                                 
+matches target: True

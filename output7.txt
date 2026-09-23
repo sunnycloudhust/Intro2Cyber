@@ -1,0 +1,6 @@
+Recovered seed: 5ec12e7b
+
+--- DECRYPTED MESSAGE ---
+From: exam-office@example.edu
+Subject: Lab 02
+Flag: a pad that looks random is not a random pad.

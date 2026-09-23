@@ -1,0 +1,12 @@
+n=4, taps={0,1}, seed=1001 -> first 16 output bits:
+1 0 0 1 1 0 1 0 1 1 1 1 0 0 0 1
+
+period (steps to return to the seed):
+  n= 4 taps=[0, 1] seed=9: period=15 (max possible = 15, maximal-length)
+  n=16 taps=[0, 2, 3, 5] seed=1: period=65535 (max possible = 65535, maximal-length)
+  n=16 taps=[0, 8] seed=1: period=24 (max possible = 65535, NOT maximal-length)
+
+n=32, taps=[0, 10, 30, 31]
+seed (hex): e7affeb3
+ciphertext (hex): f58cc08af89162490326c3fa9b0087dbc4323e13c58cddb797f6d628c29b9e78ff91512d222bc1d50296b839fc518cc12bd2203f249aac1920f11c99e6700dbcd7f7f25f70bf499eccb68df253f8
+fraction of 1-bits in 64 KiB of output: 261805/524288 = 0.4994

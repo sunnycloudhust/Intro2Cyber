@@ -1,0 +1,21 @@
+--- Encrypting M1 ---
+Ciphertext (hex): 8acc7714bc60fa71bd41b8654dc96c0d07883cd3c4758b41c8ffbb86b033e5c8a8d20de115b1345b7135669657f9a4c24f07f4efb6
+--- Encrypting M2 ---
+Ciphertext (hex): 8dc17c50f96cf379bd41be790cd1241a429b3cd4c2269a0e9bffb291e424a0c8b2d20aed14b6321e381d348d5cf7b0c26551b5
+--- Encrypting M3 ---
+Ciphertext (hex): 95dc7713f434e57df14bf16949853f1a108e36c5903c910e9ce3b6c3fd36e9c7e69a0ee81ffe274a711b759355b8ad83521cbbf5ef23c4b35525
+
+--- Decrypting ---
+Decrypted M1: Send the final report to the dean before Friday noon.
+Decrypted M2: The exam for the course starts at eight in room D9.
+Decrypted M3: Lunch will be served in the main hall at half past twelve.
+
+Save in file 'ciphertexts.txt'.
+
+1. Testing encrypt_original:
+Received ciphertext length: 1024 bytes
+Decrypted message length: 1024 bytes
+476 bytes at the end of the message were lost
+
+2. Testing modified encrypt function:
+Error: message (1500 bytes) longer than key (1024 bytes)!
